@@ -1,3 +1,103 @@
 @import "_variables"
 @import "_partial/header"
 @import "_partial/footer"
+@import "_partial/3-card-grid"
+@import "_partial/hero"
+@import "_partial/2-col"
+
+
+html,
+body
+	height 100%
+
+
+body
+	display flex
+	flex-direction column
+	background #FFF
+	color #333
+
+.link__text
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+	font-weight: 400
+
+/* ============================================
+  					Sticky Footer
+ ============================================== */
+
+ .content 
+	flex 1 0 auto
+
+
+.footer 
+	flex-shrink 0
+
+
+/* ============================================
+  					Bullets
+ ============================================== */
+
+ul.icon 
+	list-style-type none
+	padding-left .4em
+
+
+.bulletbefore 
+	display inline-block
+	font-style normal
+	font-variant normal
+	text-rendering auto
+	-webkit-font-smoothing antialiased
+	font-family "Font Awesome 5 Free"
+	font-weight 900
+	content "\f14a"
+	padding-right .5em
+	color $papyrus
+
+
+/* ============================================
+  					Product
+ ============================================== */
+.product 
+	background #fff
+
+
+/* ============================================
+  					Card
+ ============================================== */
+.benefits
+	background papyrus
+
+.card
+	position relative
+	margin-bottom 20px
+
+.card-body
+	padding 1rem .7rem !important
+
+@media only screen and (max-width: 768px) {
+    .doublecard {
+        flex-wrap: wrap;
+    }
+}
+
+.card__label
+	font-size 1em
+	line-height 1.5rem
+	color bio-grey
+	.premium 
+		font-family Arial, Helvetica, sans-serif
+
+.card__height
+	min-height 250px
+
+.card__premium
+	position absolute
+	right 10px
+	top 1.2rem
+	z-index 1
+	font-size .8em
+	color bio-grey
+
+// .card__premium-text 
+//     font-family Arial, Helvetica, sans-serif

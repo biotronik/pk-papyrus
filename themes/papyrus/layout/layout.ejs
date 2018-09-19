@@ -1,13 +1,15 @@
 <%- partial('_partial/head') %>
 
 <body>
+  <div class="content">
+    <%- partial('_partial/header') %>
 
-  <%- partial('_partial/header') %>
+    <%- body %>
+  </div>
 
-  <%- body %>
-
-  <%- partial('_partial/footer') %>
-
+  <div class="footer">
+    <%- partial('_partial/footer') %>
+  </div>
 </body>
 
 </html>
