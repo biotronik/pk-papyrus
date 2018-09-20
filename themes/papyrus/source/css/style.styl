@@ -10,6 +10,8 @@ html,
 body
 	height 100%
 
+a:hover
+	text-decoration: none
 
 body
 	display flex
@@ -42,7 +44,7 @@ ul.icon
 	padding-left .4em
 
 
-.bulletbefore 
+.bullet:before 
 	display inline-block
 	font-style normal
 	font-variant normal
@@ -52,7 +54,7 @@ ul.icon
 	font-weight 900
 	content "\f14a"
 	padding-right .5em
-	color $papyrus
+	color papyrus
 
 
 /* ============================================
@@ -99,5 +101,48 @@ ul.icon
 	font-size .8em
 	color bio-grey
 
-// .card__premium-text 
-//     font-family Arial, Helvetica, sans-serif
+.card__premium-text
+	font-family Arial, Helvetica, sans-serif
+
+/* ============================================
+  					Bootstrap Override
+ ============================================== */
+.btn.btn-primary {
+  color: #fff;
+  background-color: papyrus;
+  border-color: papyrus;
+}
+.btn.btn-primary.focus,
+.btn.btn-primary:focus {
+  color: #fff;
+  background-color: papyrus;
+  border-color: papyrus;
+  outline: none;
+  box-shadow: none;
+}
+.btn.btn-primary:hover {
+  color: #fff;
+  background-color: darken(papyrus, 10%);
+  border-color: papyrus;
+  outline: none;
+  box-shadow: none;
+}
+.btn.btn-primary.active,
+.btn.btn-primary:active {
+  color: #fff;
+  background-color: papyrus;
+  border-color: papyrus;
+  outline: none;
+}
+.btn.btn-primary.active.focus,
+.btn.btn-primary.active:focus,
+.btn.btn-primary.active:hover,
+.btn.btn-primary:active.focus,
+.btn.btn-primary:active:focus,
+.btn.btn-primary:active:hover {
+  color: #fff;
+  background-color: papyrus;
+  border-color: papyrus;
+  outline: none;
+  box-shadow: none;
+}

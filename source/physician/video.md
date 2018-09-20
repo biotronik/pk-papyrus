@@ -5,6 +5,7 @@ back: physician
 image: https://images.pexels.com/photos/157541/pexels-photo-157541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 label: Video
 title: PK Papyrus Interview
+card1: <%- partial('_partial/p-checklist') %>
 ---
 
 See how easy it is to create a little tree right in your world. Exercising the imagination, experimenting with talents, being creative; these things, to me, are truly the windows to your soul. Pretend you're water. Just floating without any effort. Having a good day.
