@@ -2,9 +2,9 @@
 layout: content-brochure-1card
 permalink: /brochure/
 back: physician
-image: https://images.pexels.com/photos/157541/pexels-photo-157541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+image: https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_538/v1537912866/product/pk-papyrus/PK_Papyrus_442278_A_US_Sep_2018_Page_1.jpg
 label: Brochure
-title: PK Papyrus Brochure
+title: PK Papyrus Overview
 ---
 
-Without washing the brush, I'm gonna go right into some Van Dyke Brown, some Burnt Umber, and a little bit of Sap Green. It all happens automatically. If you overwork it you become a cloud killer. There's nothing worse than a cloud killer. We can fix anything.
+As a covered single stent, PK Papyrus is designed to deliver more like a conventional stent<sup>1,2</sup> when treating coronary artery perforations. PK Papyrus is the first FDA approved 2.5 mm diameter covered coronary stent, offering the broadest range of sizes in the US market<sup>3</sup> to treat more patients.

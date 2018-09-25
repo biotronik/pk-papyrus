@@ -1,13 +1,11 @@
 ---
-layout: content-brochure-1card
+layout: content-newsroom-1card
 permalink: /newsroom/
 back: physician
-image: https://images.pexels.com/photos/157541/pexels-photo-157541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+image: https://res.cloudinary.com/binc/image/upload/c_fit,f_auto,w_538/v1536272484/product/pk-papyrus/BIO10454_PK_Papyrus.jpg
 label: NEWSROOM
-title: PK Papyrus Brochure
+title: PK Papyrus in the Media
 ---
-
-Without washing the brush, I'm gonna go right into some Van Dyke Brown, some Burnt Umber, and a little bit of Sap Green. It all happens automatically. If you overwork it you become a cloud killer. There's nothing worse than a cloud killer. We can fix anything.
 
 <ul class='icon pressrelease'>
     <li><a href="https://www.fda.gov/NewsEvents/Newsroom/PressAnnouncements/ucm620603.htm" target="_blank">FDA
