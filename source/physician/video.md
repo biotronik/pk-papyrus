@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: content-video-1card
 permalink: /physician/video/
 back: physician
 image: https://images.pexels.com/photos/157541/pexels-photo-157541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
