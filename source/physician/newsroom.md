@@ -7,4 +7,4 @@ label: NEWSROOM
 title: PK Papyrus in the Media
 ---
 
-As the first FDA approved covered coronary stent system in 17 years, PK Papyrus is earning nationwide attention. Find out more about this lifesaving device.
+As the first FDA approved covered coronary stent system since 2001,<sup>1</sup> PK Papyrus is earning nationwide attention. Find out more about this lifesaving device.

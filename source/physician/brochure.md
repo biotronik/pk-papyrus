@@ -7,4 +7,6 @@ label: Brochure
 title: PK Papyrus Overview
 ---
 
-As a covered single stent, PK Papyrus is designed to deliver more like a conventional stent<sup>1,2</sup> when treating coronary artery perforations. PK Papyrus is the first FDA approved 2.5 mm diameter covered coronary stent, offering the broadest range of sizes in the US market<sup>3</sup> to treat more patients.
+PK Papyrus is designed to deliver more like a conventional stent<sup>1,2</sup> when treating coronary artery perforations. PK Papyrus is a single stent design with a highly elastic membrane capable of treating coronary artery perforations.<sup>3</sup>
+
+PK Papyrus is the first FDA approved 2.5 mm diameter covered coronary stent, offering the broadest range of sizes in the US market<sup>4</sup> to treat more patients.
