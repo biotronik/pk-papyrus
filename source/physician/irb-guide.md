@@ -17,7 +17,4 @@ For IRB-related questions, contact us:
 800-547-0394
 PKPapyrusIRBsupport@biotronik.com
 
-<h5 class="font-weight-bold text-center">Send me the IRB Information Guide</h5>
-<script src="//app-sj11.marketo.com/js/forms2/js/forms2.min.js"></script>
-<form id="mktoForm_1533"></form>
-<script>MktoForms2.loadForm("//app-sj11.marketo.com", "947-QLI-617", 1533);</script>
+
