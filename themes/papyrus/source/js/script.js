@@ -1,22 +1,18 @@
 var utm_params = new Array(
-  ['utm_advisor', 'utm_advisor__c', 'utm_o_advisor__c'],
-  ['utm_campaign', 'utm_campaign__c', 'utm_o_campaign__c'],
-  ['utm_channel', 'utm_channel__c', 'utm_o_channel__c'],
-  ['utm_content', 'utm_content__c', 'utm_o_content__c'],
-  ['utm_medium', 'utm_medium__c', 'utm_o_medium__c'],
-  ['utm_partner', 'utm_partner__c', 'utm_o_partner__c'],
-  ['utm_source', 'utm_source__c', 'utm_o_source__c']
+  //['utm_advisor', 'utm_advisor__c', 'utm_o_advisor__c'],
+  ['utm_campaign', 'utmcampaign', 'utm_o_campaign__c'],
+  //['utm_channel', 'utm_channel__c', 'utm_o_channel__c'],
+  //['utm_content', 'utm_content__c', 'utm_o_content__c'],
+  ['utm_medium', 'utmmedium', 'utm_o_medium__c'],
+  //['utm_partner', 'utm_partner__c', 'utm_o_partner__c'],
+  ['utm_source', 'utmsource', 'utm_o_source__c']
 );
-
-
-
 
 jQuery(function ($) {
   // Look in URL for params
   for (var o in utm_params) {
     if (getUrlParam(utm_params[o][0]) > '') setCookie(utm_params[o][0], getUrlParam(utm_params[o][0]));
   }
-
 
   // Look for forms on page
   $('form input[type=hidden]').each(function () {
@@ -27,9 +23,6 @@ jQuery(function ($) {
   });
 });
 
-
-
-
 /* Functions */
 function getUrlParam(parameter) {
   var urlparameter = '';
@@ -39,7 +32,6 @@ function getUrlParam(parameter) {
   return urlparameter;
 }
 
-
 function getUrlVars() {
   var vars = {};
   var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
@@ -48,15 +40,12 @@ function getUrlVars() {
   return vars;
 }
 
-
 function setCookie(cname, cvalue, exdays = 0) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   var expires = 'expires=0'; //  "expires="+ d.toUTCString();  <- add if you want a specific time
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
-
-
 
 
 function getCookie(cname) {
