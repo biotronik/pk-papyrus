@@ -1,0 +1,5 @@
+[[redirects]]
+from = "/cats"
+to = "https://www.biotronik.com/en-us"
+status = 301
+force = false
